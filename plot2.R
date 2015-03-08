@@ -7,7 +7,7 @@ png(file="plot2.png")
 
 #plot Global Active power over time
 plot(strptime(paste(subdata$Date,subdata$Time), format = "%d/%m/%Y %H:%M:%S"), subdata$Global_active_power, ylab = "Global Active Power (kilowatts)", xlab = "", type = "l")
-line
+
 
 
 dev.off()
