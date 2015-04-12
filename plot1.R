@@ -8,5 +8,5 @@ png(file="plot1.png")
 hist(subdata$Global_active_power, main = "Global Active Power", xlab = "Global Active Power (kilowatts)", col = "RED")
 
 
-
+#turn off device
 dev.off()
